@@ -293,10 +293,10 @@ caller directory, and from a path containing spaces.
 `python -I -S -B scripts/build_hero.py --check` proves the committed masthead
 SVGs still match their generator; it runs in CI. What each check proves, and
 what it cannot, is in the
-[validation guide](https://github.com/Emily2040/seedance-2.0/blob/main/docs/VALIDATION.md):
-schema checks are not lineage proofs, the source-registry check does not fetch
-URLs, and the architecture stress gate is a structural gate, not a creativity
-judge.
+[validation guide](https://github.com/Emily2040/seedance-2.0/blob/main/docs/VALIDATION.md).
+Schema checks are not lineage proofs. The source-registry check does not fetch URLs
+and does not prove that any upstream claim is still true. The architecture stress
+gate is a structural gate, not a creativity judge.
 
 ### Git checkout-only hygiene
 
