@@ -185,6 +185,8 @@ REQUIRED_FILES = [
     "docs/README.zh.md",
     "docs/README.ja.md",
     "docs/README.ko.md",
+    "docs/README.es.md",
+    "docs/README.ru.md",
 ]
 
 REQUIRED_FIELDS = ["name", "description", "license", "user-invocable", "tags", "metadata"]

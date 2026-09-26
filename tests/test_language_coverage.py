@@ -19,8 +19,8 @@ class LanguageCoverageTests(unittest.TestCase):
         for row in report.values():
             self.assertIn(row["status"], {"unchanged_unreviewed", "stale_review_required"})
             self.assertEqual(row["native_review"], "pending")
-        self.assertIsNone(self.contract["languages"]["es"]["readme"])
-        self.assertIsNone(self.contract["languages"]["ru"]["readme"])
+        self.assertEqual(self.contract["languages"]["es"]["readme"], "docs/README.es.md")
+        self.assertEqual(self.contract["languages"]["ru"]["readme"], "docs/README.ru.md")
 
     def test_source_drift_marks_all_locales(self):
         self.contract["sources"]["SKILL.md"] = "0" * 64

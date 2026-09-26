@@ -41,8 +41,9 @@ surface was actually tested: real GitHub or a local approximation. Test:
    scrolling. Wide technical tables may scroll inside their own region.
 3. Use Tab and Enter to follow entry links and open/close each details summary.
    Confirm visible focus and a meaningful summary name.
-4. Follow all six language entry links. Distinguish available docs from pending
-   native review and avoid claiming full README parity for ES/RU.
+4. Follow all six language entry links. Each page is written for its reader,
+   not translated; check that every page states its pending review status and
+   that no page claims parity with another.
 5. With images unavailable, the example still teaches its action and endpoint.
    Keep art labels outside the bitmap; no fake UI, metrics or certification.
 6. Review generated image hands, objects, contact, light and scene intent at
