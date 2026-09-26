@@ -55,7 +55,7 @@
     "es": {
       "quickstart": "docs/QUICKSTART.es.md",
       "vocabulary": "references/vocab/es.md",
-      "readme": null,
+      "readme": "docs/README.es.md",
       "snapshots": {
         "docs/QUICKSTART.es.md": "16e6a4a85f129bd3c6da4ec753802bbab4efd6e261d21590a049da00da22aeac",
         "references/vocab/es.md": "d5bdc96283d012ba0ae6ffd015a86840dd06264a751bd7811bda660281ada693"
@@ -66,7 +66,7 @@
     "ru": {
       "quickstart": "docs/QUICKSTART.ru.md",
       "vocabulary": "references/vocab/ru.md",
-      "readme": null,
+      "readme": "docs/README.ru.md",
       "snapshots": {
         "docs/QUICKSTART.ru.md": "54d600f5dd35710d7ec21408efdb11cc8c8161de06d524efc2bb11d2226dc83d",
         "references/vocab/ru.md": "689f5a75f7711846038876b86fc6272b7b9815002c0b61e27e402799e6b31e95"

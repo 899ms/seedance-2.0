@@ -24,8 +24,10 @@ docs/QUICKSTART.ko.md
 docs/QUICKSTART.md
 docs/QUICKSTART.ru.md
 docs/QUICKSTART.zh.md
+docs/README.es.md
 docs/README.ja.md
 docs/README.ko.md
+docs/README.ru.md
 docs/README.zh.md
 docs/RELEASE_v6.2.0.md
 docs/RELEASE_v6.3.0.md

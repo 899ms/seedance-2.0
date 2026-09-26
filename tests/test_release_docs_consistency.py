@@ -44,6 +44,8 @@ class VersionSurfaceTests(unittest.TestCase):
             "docs/README.zh.md",
             "docs/README.ja.md",
             "docs/README.ko.md",
+            "docs/README.es.md",
+            "docs/README.ru.md",
         ):
             with self.subTest(relative=relative):
                 self.assertIn(f"v{version}", read(relative))

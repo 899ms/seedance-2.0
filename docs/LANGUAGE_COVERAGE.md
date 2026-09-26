@@ -12,10 +12,10 @@ three named specimens, not every page written in those languages.
 | ZH | [Available](QUICKSTART.zh.md) | [Available](../references/vocab/zh.md) | [Available](README.zh.md) | Pending; fixture scope zh-CN / Hans only |
 | JA | [Available](QUICKSTART.ja.md) | [Available](../references/vocab/ja.md) | [Available](README.ja.md) | Pending; fixture scope ja-JP only |
 | KO | [Available](QUICKSTART.ko.md) | [Available](../references/vocab/ko.md) | [Available](README.ko.md) | Pending; fixture scope ko-KR only |
-| ES | [Available](QUICKSTART.es.md) | [Available](../references/vocab/es.md) | Not provided | Pending; locale/register must be declared |
-| RU | [Available](QUICKSTART.ru.md) | [Available](../references/vocab/ru.md) | Not provided | Pending; locale/register must be declared |
+| ES | [Available](QUICKSTART.es.md) | [Available](../references/vocab/es.md) | [Available](README.es.md) | Pending; page declares neutral Spanish for the Americas, tuteo |
+| RU | [Available](QUICKSTART.ru.md) | [Available](../references/vocab/ru.md) | [Available](README.ru.md) | Pending; page declares formal вы, ё written, «» quotes |
 
-An available README is not proof of full semantic parity with the English source.
+An available README is not proof of full semantic parity with the English source, and parity is not the goal: each page is written for its reader, with its own order, example scene and typography, so a reviewer should judge it as a page in that language rather than as a translation.
 English also needs independent production-language review; being the source
 language is not a quality verdict. Regional variants and mixed-language dialogue
 need their own declared scope. Avoid ranking languages by model reliability from

@@ -50,7 +50,7 @@ def check(root: Path, contract: dict) -> dict:
         if not isinstance(item, dict) or set(item) != {"quickstart", "vocabulary", "readme", "snapshots", "native_review", "rendered_review"}:
             raise ValueError("language fields differ from the schema")
         suffix = "" if language == "en" else f".{language}"
-        readme = "README.md" if language == "en" else f"docs/README.{language}.md" if language in {"zh", "ja", "ko"} else None
+        readme = "README.md" if language == "en" else f"docs/README.{language}.md"
         if (item["quickstart"] != f"docs/QUICKSTART{suffix}.md"
                 or item["vocabulary"] != f"references/vocab/{language}.md" or item["readme"] != readme):
             raise ValueError("language availability paths differ from the declared scope")
